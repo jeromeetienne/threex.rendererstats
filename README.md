@@ -2,11 +2,13 @@ threex.rendererstats
 ====================
 
 It is a three.js extension to display realtime informations about ```THREE.WebGLRenderer```.
-here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/examples/basic.html)
+
+here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/examples/basic.html).
+
 It is widely inpired from @mrdoob [stats.js](https://github.com/mrdoob/stats.js/).
 It is released under MIT license
 
-## How to use it 
+## How To Use It 
 
 first include ```threex.rendererstats.js``` with the usual
 
