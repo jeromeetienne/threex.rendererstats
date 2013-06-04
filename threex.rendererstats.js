@@ -6,7 +6,7 @@
 var THREEx	= THREEx || {}
 
 /**
- * Update renderer and camera when the window is resized
+ * provide info on THREE.WebGLRenderer
  * 
  * @param {Object} renderer the renderer to update
  * @param {Object} Camera the camera to update
@@ -56,7 +56,7 @@ THREEx.RendererStats	= function (){
 			msTexts[i++].textContent = "Geometries: "+webGLRenderer.info.memory.geometries;
 			msTexts[i++].textContent = "Textures: "	+ webGLRenderer.info.memory.textures;
 
-			msTexts[i++].textContent = "== Render ======";
+			msTexts[i++].textContent = "== Render =====";
 			msTexts[i++].textContent = "Calls: "	+ webGLRenderer.info.render.calls;
 			msTexts[i++].textContent = "Vertices: "	+ webGLRenderer.info.render.vertices;
 			msTexts[i++].textContent = "Faces: "	+ webGLRenderer.info.render.faces;
