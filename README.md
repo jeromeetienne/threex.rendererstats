@@ -11,7 +11,7 @@ It is released under MIT license
 first include ```threex.rendererstats.js``` with the usual
 
 ```html
-    <script src='threex.rendererstats.js'></script>
+<script src='threex.rendererstats.js'></script>
 ```
 
 then initialize it with 
