@@ -10,10 +10,24 @@ It is released under MIT license
 
 ## How To Use It 
 
-first include ```threex.rendererstats.js``` with the usual
+First include ```threex.rendererstats.js``` with the usual
 
 ```html
 <script src='threex.rendererstats.js'></script>
+```
+
+or with
+[bower](http://bower.io/) 
+you type the following to install the package.
+
+```bash
+bower install -s threex.rendererstats=https://github.com/jeromeetienne/threex.rendererstats/archive/master.zip
+```
+
+then you add that in your html
+
+```html
+<script src="bower_components/threex.rendererstats/threex.rendererstats.js"></script>
 ```
 
 then initialize it with 
