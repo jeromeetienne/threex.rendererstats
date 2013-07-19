@@ -8,9 +8,11 @@ here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/ex
 It is widely inpired from @mrdoob [stats.js](https://github.com/mrdoob/stats.js/).
 It is released under MIT license
 
-## How To Use It 
+## How To install it
 
-First include ```threex.rendererstats.js``` with the usual
+You can install it manually or with
+[bower](http://bower.io/).
+for the manual version, first include ```threex.rendererstats.js``` with the usual
 
 ```html
 <script src='threex.rendererstats.js'></script>
@@ -30,7 +32,7 @@ then you add that in your html
 <script src="bower_components/threex.rendererstats/threex.rendererstats.js"></script>
 ```
 
-then initialize it with 
+## How To Use It
 
 ```
 var rendererStats	= new THREEx.RendererStats()
